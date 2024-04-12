@@ -24,8 +24,32 @@ Debug					= true	-- Do you want some debug message ?
 -- fr (Français)
 -- es (Spanish)
 
-Language = 'en' 
+Language = 'pt-br' 
 Message = {}
+
+Message['pt-br'] = {
+    ['we_warned_you'] = "Nós te avisamos! A polícia foi notificada sobre seu embarque ilegal!",
+    ['no_ticket_leave'] = "Você não tem um bilhete! Por favor, saia do metrô ou teremos que chamar a polícia.",
+    ['buyticket'] = "Pressione ~INPUT_CONTEXT~ para comprar um bilhete de metrô.",
+    ['press_to_enter'] = "Pressione ~INPUT_CONTEXT~ enquanto estiver de frente (e próximo) ao metrô para entrar.",
+    ['los_santos_transit'] = "Los Santos Transit",
+    ['tourist_information'] = "Informações para turistas",
+    ['already_got_ticket'] = "Você já possui um bilhete de metrô válido. Por favor, vá até uma das estações e embarque no metrô.",
+    ['account_information'] = "Informações da conta",
+    ['account_nomoney'] = "Transação falhou, você não possui fundos suficientes.",
+    ['ticket_purchased'] = "Obrigado pela compra, seu bilhete será válido para a sessão atual.",
+    ['stop_toolate'] = "Desculpe, parece que você pressionou um pouco tarde. Você terá que esperar pela próxima estação.",
+    ['sorry'] = "Desculpe",
+    ['exit_metro_random'] = ", mas não é permitido sair aleatoriamente do metrô. Por favor, aguarde pela próxima estação!",
+    ['Sir'] = "Senhor",
+    ['Miss'] = "Senhorita",
+    ['need_ticket'] = "Desculpe, você precisará comprar um bilhete de metrô de LST primeiro.",
+    ['have_wantedlevel'] = "Desculpe, não permitimos fugitivos em nossos metrôs. Todos os passageiros devem poder viajar com segurança!",
+    ['entered_metro'] = "Você saiu do metrô, seu bilhete foi invalidado.",
+    ['terrorist'] = "NÃO toleraremos comportamento terrorista em nossos veículos de transporte público!",
+    ['no_metro_spawned'] = "Nossas desculpas, algo deu terrivelmente errado. Você recebeu um bilhete grátis!",
+    ['travel_metro'] = "Obrigado por viajar com o Los Santos Transit, seu bilhete foi aprovado.",
+}
 
 Message['en'] = {
 	['we_warned_you'] = "We have warned you! Police have been notified of your illegal boarding!",
